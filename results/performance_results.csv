@@ -1,0 +1,69 @@
+structure,operation,initial_n,expected_cost,median_us,min_us,max_us
+Stack,push,100,O(1) amortized,0.04339,0.04255,0.06993
+Stack,push,1000,O(1) amortized,0.04585,0.04505,0.05559
+Stack,push,10000,O(1) amortized,0.07096,0.06315,0.17408
+Stack,push,50000,O(1) amortized,0.09014,0.05116,1.05025
+Stack,pop,100,O(1),0.04842,0.04723,0.10387
+Stack,pop,1000,O(1),0.04734,0.04648,0.30766
+Stack,pop,10000,O(1),0.05276,0.04721,0.05524
+Stack,pop,50000,O(1),0.06624,0.06197,0.31609
+Stack,peek,100,O(1),0.04054,0.03984,0.088
+Stack,peek,1000,O(1),0.04152,0.04067,0.04293
+Stack,peek,10000,O(1),0.04436,0.04133,0.28975
+Stack,peek,50000,O(1),0.06104,0.05312,0.06426
+Stack,isEmpty,100,O(1),0.0358,0.0352,0.07589
+Stack,isEmpty,1000,O(1),0.03663,0.0357,0.03848
+Stack,isEmpty,10000,O(1),0.03758,0.03721,6.11393
+Stack,isEmpty,50000,O(1),0.04977,0.04715,0.0582
+Queue,enqueue,100,O(1) amortized,0.04477,0.04321,0.11239
+Queue,enqueue,1000,O(1) amortized,0.04489,0.04372,0.04695
+Queue,enqueue,10000,O(1) amortized,0.06887,0.0633,0.10291
+Queue,enqueue,50000,O(1) amortized,0.06191,0.05535,0.11312
+Queue,dequeue,100,O(n),0.05912,0.0548,0.13557
+Queue,dequeue,1000,O(n),0.10647,0.10161,0.35692
+Queue,dequeue,10000,O(n),1.84113,1.68901,9.74985
+Queue,dequeue,50000,O(n),11.1407,9.68141,20.6864
+Queue,front,100,O(1),0.03723,0.03663,0.07218
+Queue,front,1000,O(1),0.03801,0.03778,0.03948
+Queue,front,10000,O(1),0.04239,0.03967,0.04561
+Queue,front,50000,O(1),0.05431,0.04873,0.05786
+Queue,isEmpty,100,O(1),0.03706,0.03602,0.06667
+Queue,isEmpty,1000,O(1),0.03785,0.03656,0.04263
+Queue,isEmpty,10000,O(1),0.04366,0.0379,1.38725
+Queue,isEmpty,50000,O(1),0.05491,0.04945,0.06183
+Deque,addFront,100,O(n),0.08573,0.07453,0.96372
+Deque,addFront,1000,O(n),0.24778,0.23421,3.08538
+Deque,addFront,10000,O(n),3.6459,2.07096,10.4296
+Deque,addFront,50000,O(n),17.71761,12.0496,24.49794
+Deque,addRear,100,O(1) amortized,0.04213,0.04032,0.11805
+Deque,addRear,1000,O(1) amortized,0.0526,0.05153,0.06505
+Deque,addRear,10000,O(1) amortized,0.06608,0.06431,0.69565
+Deque,addRear,50000,O(1) amortized,0.06403,0.05829,0.10315
+Deque,removeFront,100,O(n),0.05581,0.05358,0.80588
+Deque,removeFront,1000,O(n),0.09908,0.09821,0.10114
+Deque,removeFront,10000,O(n),1.69557,1.68902,4.30271
+Deque,removeFront,50000,O(n),13.72614,10.45949,25.3983
+Deque,removeRear,100,O(1),0.04621,0.04574,0.09811
+Deque,removeRear,1000,O(1),0.04574,0.04433,0.07227
+Deque,removeRear,10000,O(1),0.04773,0.04507,0.06094
+Deque,removeRear,50000,O(1),0.06654,0.06204,0.34739
+Deque,isEmpty,100,O(1),0.03782,0.03531,0.07283
+Deque,isEmpty,1000,O(1),0.03648,0.03556,0.04623
+Deque,isEmpty,10000,O(1),0.03734,0.03673,0.04276
+Deque,isEmpty,50000,O(1),0.0544,0.05051,0.0578
+LinkedList,insert,100,O(1),0.15023,0.14289,1.42617
+LinkedList,insert,1000,O(1),0.16607,0.15655,0.63344
+LinkedList,insert,10000,O(1),0.18301,0.16705,2.35267
+LinkedList,insert,50000,O(1),0.20531,0.2027,2.11264
+LinkedList,delete,100,O(n) absent,4.71755,2.84218,17.18082
+LinkedList,delete,1000,O(n) absent,48.88447,44.04041,57.83462
+LinkedList,delete,10000,O(n) absent,543.72235,519.48056,723.44252
+LinkedList,delete,50000,O(n) absent,2926.20022,2754.2278,3821.73507
+LinkedList,search,100,O(n) absent,3.39997,2.69417,13.05323
+LinkedList,search,1000,O(n) absent,52.69886,40.37831,62.89903
+LinkedList,search,10000,O(n) absent,515.27185,461.91789,574.21841
+LinkedList,search,50000,O(n) absent,2647.65375,2495.86758,2844.50956
+LinkedList,display,100,O(n),5.24751,3.10028,15.2715
+LinkedList,display,1000,O(n),98.26277,50.82175,197.7605
+LinkedList,display,10000,O(n),588.09393,484.1574,857.18528
+LinkedList,display,50000,O(n),2881.6266,2572.4184,3572.88657
